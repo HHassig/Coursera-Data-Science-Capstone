@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Word Prediction: Coursera Data Science Capstone Project\n========================================================\nauthor: Harrison Hassig\ndate: March 26, 2017\nautosize: true\n\nIntroduction\n========================================================\n\nThe following presentation is designed to showcase my skills learned in the Data Science Specialization from Coursera and John Hopkins University. In this project, JHU partnered with Swiftkey (http://swiftkey.com) to apply data science for use of natural language processing and ultimately the prediction of the next word in a small data set.\n\nThe objective of this project was to build a working predictive text model. The data used in the model came from a **corpus** called HC Corpora (www.corpora.heliohost.org).\n\nAlgorithm Development\n========================================================\n\nThe algorithm developed to predict the next word in a user-entered text string was based on a \nclassic **N-gram** model. Using a subset of cleaned data from the provided data set, unigrams, bigrams, and trigrams were computed.\n\nUltimately, this allowed me to predict the next word of a user-inputted string of words, presented in my shiny application, capstone project, and what I am pitching to you today.\n\nMore information can be found here:\nhttps://rpubs.com/HHassig/251855\n\nThe Shiny Application\n========================================================\n\nUsing the algorithm and plan described in the previous link, a Shiny application (shiny.rstudio.com) was created and hosted here:\nhttps://hhassig.shinyapps.io/Capstone/\n\nThis application is our propreitary algorithm and accepts a word or phrase as input and suggests a word from the dataset and training done (via linear interpolation of trigrams, bigrams, unigrams) that is *believed* to be most likely to be the next word the user wishes to utilize.\n\nThe source files for this project can be found:\nhttps://github.com/HHassig/Coursera-Data-Science-Capstone\n\nUsing the Application\n========================================================\n\nSimply type in a phrase and hit \"Predict!\" and the application will provide the top word based on our algorithm, as well as its likelihood as a percentage, and the alternative choices and their percentages.\nWe believe this application to be easy to use, and its usage beyond this web app is unlimited and scalable. Please enjoy our live demonstration and we are looking forward to your questions.\n\n-HarrisonHassig@fakeemail.com",
+    "created" : 1490526752601.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3430971736",
+    "id" : "133DF187",
+    "lastKnownWriteTime" : 1490526881,
+    "last_content_update" : 1490526881790,
+    "path" : "~/Desktop/Capstone/CapstonePresentation.Rpres",
+    "project_path" : "CapstonePresentation.Rpres",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_presentation"
+}

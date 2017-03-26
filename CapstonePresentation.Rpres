@@ -2,18 +2,19 @@ Word Prediction: Coursera Data Science Capstone Project
 ========================================================
 author: Harrison Hassig
 date: March 26, 2017
+autosize: true
 
 Introduction
 ========================================================
 
-<small>The following presentation is designed to showcase my skills learned in the Data Science Specialization from Coursera and John Hopkins University. In this project, JHU partnered with Swiftkey (http://swiftkey.com) to apply data science for use of natural language processing and ultimately the prediction of the next word in a small data set.
+The following presentation is designed to showcase my skills learned in the Data Science Specialization from Coursera and John Hopkins University. In this project, JHU partnered with Swiftkey (http://swiftkey.com) to apply data science for use of natural language processing and ultimately the prediction of the next word in a small data set.
 
 The objective of this project was to build a working predictive text model. The data used in the model came from a **corpus** called HC Corpora (www.corpora.heliohost.org).
 
 Algorithm Development
 ========================================================
 
-<small>The algorithm developed to predict the next word in a user-entered text string was based on a 
+The algorithm developed to predict the next word in a user-entered text string was based on a 
 classic **N-gram** model. Using a subset of cleaned data from the provided data set, unigrams, bigrams, and trigrams were computed.
 
 Ultimately, this allowed me to predict the next word of a user-inputted string of words, presented in my shiny application, capstone project, and what I am pitching to you today.
@@ -24,7 +25,7 @@ https://rpubs.com/HHassig/251855
 The Shiny Application
 ========================================================
 
-<small>Using the algorithm and plan described in the previous link, a Shiny application (shiny.rstudio.com) was created and hosted here:
+Using the algorithm and plan described in the previous link, a Shiny application (shiny.rstudio.com) was created and hosted here:
 https://hhassig.shinyapps.io/Capstone/
 
 This application is our propreitary algorithm and accepts a word or phrase as input and suggests a word from the dataset and training done (via linear interpolation of trigrams, bigrams, unigrams) that is *believed* to be most likely to be the next word the user wishes to utilize.
@@ -35,7 +36,7 @@ https://github.com/HHassig/Coursera-Data-Science-Capstone
 Using the Application
 ========================================================
 
-<small>Simply type in a phrase and hit "Predict!" and the application will provide the top word based on our algorithm, as well as its likelihood as a percentage, and the alternative choices and their percentages.
+Simply type in a phrase and hit "Predict!" and the application will provide the top word based on our algorithm, as well as its likelihood as a percentage, and the alternative choices and their percentages.
 We believe this application to be easy to use, and its usage beyond this web app is unlimited and scalable. Please enjoy our live demonstration and we are looking forward to your questions.
 
 -HarrisonHassig@fakeemail.com
